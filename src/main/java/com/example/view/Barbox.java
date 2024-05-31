@@ -185,7 +185,7 @@ public class Barbox {
                 subButton.setPrefSize(10, 10);
 
                 StackPane buttonPane = new StackPane();
-                StackPane.setAlignment(subButton, Pos.TOP_RIGHT);//子按钮位于右上角
+                StackPane.setAlignment(subButton, javafx.geometry.Pos.TOP_RIGHT);//子按钮位于右上角
 
                 buttonPane.getChildren().addAll(mainButton, subButton);
 
@@ -245,6 +245,3 @@ public class Barbox {
         }
     }
 }
-
-
-
